@@ -132,16 +132,24 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [11/15 10:46pm] 
+**What I did**: Forked the repository, set my student ID, and ran the original starter, updated my personal information, implemented feature 1
 
-**Details**:
+**Details**: 
+- Forked the starter repository and renamed it
+- Changed student ID on line 304 to my actual ID (439051786)
+- Ran the original program: all 4 CPUs crashed with NullPointerException in ReadyQueue.snapshot() , Because they had concurrent modifications to the (shared) LinkedList, Causing a race condition.
+- Saved the output in a text file for Question 1
+- Committed and pushed: `Update personal information in MY_WORK.md , changed student ID on line "304", Feature 1: protected critical sections.`
 
-**Challenges**:
+**Challenges**: 
+- could not understand the error that i was facing in my seed.
+- figuring out the format for the locks to protect the critical sections.
 
 **Solution**:
-
-**Time spent**:
+- looked it up and understood that the CPUs crash because they want access to the same piece of critical information (as a result gained a deeper understanding of race conditions and how they occur).
+- looked up how to format the first lock then VS code suggested the same for the rest and it fell in like legos. 
+**Time spent**: approx. 1hr 45mns
 
 ---
 
