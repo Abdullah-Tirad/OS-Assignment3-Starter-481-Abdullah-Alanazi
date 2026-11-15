@@ -153,16 +153,21 @@
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [11/16 12:40 am]
+**What I did**:Implemented feature 2: protected SHARED STATISTICS, found an error in feature 1 and fixed it (missing '}') in class ReadyQueue.
 
 **Details**:
+- Used one ReentrantLock to protect critical sections in each stat.
+- insured that only one CPU can modify/read statistics at a time.
+- fixed an error of a missing curly bracket for class ReadyQueue. 
 
 **Challenges**:
-
+- faced a problem where instead of committing, VS code staged my changes and i couldn't commit correctly.
+- other then that it was smooth sailing because the issues i faced in my feature 1 commit repeated and were easily fixable here.
 **Solution**:
-
-**Time spent**:
+- looked it up online and apparently it's a feature where it saves your corrent progress without commiting to check your code before commiting.
+   
+**Time spent**: approx. 1hr
 
 ---
 
