@@ -32,11 +32,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [abdullah tirad alanazi] |
+| **Student ID** | [439051786] |
+| **University Email** | [439051786@std.psau.edu.sa |
+| **GitHub Username** | [Abdullah-Tirad] |
+| **Repository Link** | [[Paste your repository link here](https://github.com/Abdullah-Tirad/OS-Assignment3-Starter-481)] |
  
 ---
 
